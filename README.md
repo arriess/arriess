@@ -2,82 +2,106 @@
 
 Cybersecurity graduate focused on **Security Operations, Threat Detection, Incident Response, and Blue Team security**.
 
-I am building practical SOC skills through hands-on labs, cybersecurity projects, and security investigations, with the goal of working as a **Junior SOC Analyst, Cybersecurity Analyst, or Security Operations Analyst** in Germany.
+I build practical SOC analyst skills through hands-on security labs, Windows telemetry analysis, Splunk SIEM detections, alert triage, and documented investigations.
 
-## 🎯 Current Focus
+## 🔐 SOC Analyst Portfolio
 
-- Security Operations Center (SOC)
-- Incident Response
-- Threat Detection
-- Log Analysis
-- Network Security
-- Phishing Analysis
-- Windows & Linux Security
-- SIEM fundamentals
+### [SOC Analyst Lab](https://github.com/arriess/SOC-Analyst-Lab)
 
-## 🛠️ Technical Skills
+A hands-on Windows + Splunk security operations lab with **5 detections validated end-to-end**.
 
-**Security**
-- Cybersecurity
-- Security Operations
-- Incident Response
-- Threat Detection
-- Phishing Analysis
-- Vulnerability Analysis
-- Social Engineering
+Current detections include:
 
-**Systems**
+- Repeated Windows failed logons — Event ID 4625
+- Command Prompt spawning PowerShell — Event ID 4688
+- Failed logons followed by successful authentication — Event IDs 4625 + 4624
+- New local user account creation — Event ID 4720
+- User added to Local Administrators group — Event ID 4732
+
+The project demonstrates a full SOC workflow:
+
+```text
+Controlled security event
+        ↓
+Windows Security telemetry
+        ↓
+Splunk ingestion
+        ↓
+SPL detection / correlation
+        ↓
+Scheduled alert
+        ↓
+Triggered Alert
+        ↓
+Analyst triage + documentation
+```
+
+## 🛠️ Practical Skills
+
+**Security Operations**
+- Security monitoring
+- Alert triage
+- Log analysis
+- Threat detection
+- Incident investigation fundamentals
+- Detection engineering fundamentals
+- MITRE ATT&CK mapping
+
+**SIEM & Windows Security**
+- Splunk Enterprise
+- Splunk Search Processing Language (SPL)
+- Windows Security Event Logs
+- Windows Event Viewer
+- Authentication-event analysis
+- Process-creation analysis
+- Account and privilege-change monitoring
+
+**Systems & Networking**
 - Windows
 - Linux
 - VirtualBox
-
-**Networking**
 - TCP/IP
 - DNS
-- Network Security
-- Wireshark
-- Network Troubleshooting
+- Network troubleshooting
 
-**Programming & Scripting**
-- Python
-- C#
-- Command Line
+**Scripting & Command Line**
+- PowerShell
+- Windows Command Prompt
+- Python fundamentals
 
 ## 🧪 Hands-on Learning
 
 - 26+ completed TryHackMe rooms
-- Current Top 15% TryHackMe ranking
-- Cybersecurity and networking labs
-- Windows and Linux security environments
-- Phishing and social engineering simulations
+- TryHackMe Top 15% at last profile review
+- Windows and Linux security labs
+- Cybersecurity and networking exercises
+- Phishing and social-engineering simulations
 
-## 📜 Credentials
+## 📜 Credentials & Training
 
 - Cisco Cybersecurity Essentials
 - Cisco Networking Essentials
 - Cisco Introduction to Cybersecurity
 - Cisco Introduction to IoT
 - ISC2 Certified in Cybersecurity (CC) Self-Paced Training
-- TryHackMe CompTIA PenTest+ Learning Path – Certificate of Completion
+- TryHackMe CompTIA PenTest+ Learning Path — Certificate of Completion
 
-## 🚀 Currently Building
+## 🎯 Current Direction
 
-I am currently developing SOC-focused projects involving:
+I am continuing to strengthen practical skills in:
 
-- SIEM monitoring
-- Security log analysis
-- Alert triage
-- Incident investigation
+- SOC alert investigation
+- Splunk detection engineering
+- Windows security monitoring
 - Network traffic analysis
-- Microsoft Sentinel
-- Splunk
+- Incident-response workflows
+
+## 💼 Opportunities
+
+I am actively seeking **Junior SOC Analyst, Cybersecurity Analyst, and Security Operations Analyst** opportunities in Germany.
 
 ## 🔗 Profiles
 
 - LinkedIn: https://www.linkedin.com/in/hicham-essafi/
 - TryHackMe: https://tryhackme.com/p/HichamEssafi
 - Credly: https://www.credly.com/users/hicham-essafi
-
-## 💼 Career Goal
-
-I am actively seeking opportunities as a **Junior SOC Analyst, Cybersecurity Analyst, or Security Operations Analyst** in Germany.
