@@ -2,15 +2,15 @@
 
 Cybersecurity graduate focused on **Security Operations, Threat Detection, Incident Response, and Blue Team security**.
 
-I build practical SOC analyst skills through hands-on security labs, Windows telemetry analysis, Splunk SIEM detections, alert triage, and documented investigations.
+I build practical SOC analyst skills through hands-on security labs, Windows telemetry analysis, Splunk SIEM detections, network traffic analysis, alert triage, and documented investigations.
 
 ## 🔐 SOC Analyst Portfolio
 
 ### [SOC Analyst Lab](https://github.com/arriess/SOC-Analyst-Lab)
 
-A hands-on Windows + Splunk security operations lab with **5 detections validated end-to-end**.
+A hands-on Windows + Splunk + Wireshark security operations portfolio with **5 detections validated end-to-end** and **2 documented analyst investigations**.
 
-Current detections include:
+Validated detections include:
 
 - Repeated Windows failed logons — Event ID 4625
 - Command Prompt spawning PowerShell — Event ID 4688
@@ -18,23 +18,12 @@ Current detections include:
 - New local user account creation — Event ID 4720
 - User added to Local Administrators group — Event ID 4732
 
-The project demonstrates a full SOC workflow:
+Documented investigations include:
 
-```text
-Controlled security event
-        ↓
-Windows Security telemetry
-        ↓
-Splunk ingestion
-        ↓
-SPL detection / correlation
-        ↓
-Scheduled alert
-        ↓
-Triggered Alert
-        ↓
-Analyst triage + documentation
-```
+- Windows failed-login analysis
+- DNS traffic analysis with Wireshark using A and AAAA query/response filtering
+
+The project demonstrates practical SOC workflows across endpoint and network telemetry, from controlled event generation and capture through detection, triage, investigation, and sanitized documentation.
 
 ## 🛠️ Practical Skills
 
@@ -56,15 +45,18 @@ Analyst triage + documentation
 - Process-creation analysis
 - Account and privilege-change monitoring
 
-**Systems & Networking**
+**Network Analysis**
+- Wireshark
+- DNS traffic analysis
+- Packet filtering
+- A / AAAA query-response analysis
+- TCP/IP and DNS fundamentals
+- Network troubleshooting
+
+**Systems & Scripting**
 - Windows
 - Linux
 - VirtualBox
-- TCP/IP
-- DNS
-- Network troubleshooting
-
-**Scripting & Command Line**
 - PowerShell
 - Windows Command Prompt
 - Python fundamentals
