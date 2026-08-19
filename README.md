@@ -98,7 +98,7 @@ I am continuing to strengthen practical skills in:
 
 ## 💼 Opportunities
 
-I am actively seeking **Junior SOC Analyst, Cybersecurity Analyst, and Security Operations Analyst** opportunities in Germany.
+I am actively seeking **Junior SOC Analyst, Cybersecurity Analyst, and Security Operations Analyst** opportunities.
 
 ## 🔗 Profiles
 
