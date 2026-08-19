@@ -72,7 +72,7 @@ Analyst triage + documentation
 ## 🧪 Hands-on Learning
 
 - 26+ completed TryHackMe rooms
-- TryHackMe Top 15% at last profile review
+- TryHackMe Top 8% at last profile review
 - Windows and Linux security labs
 - Cybersecurity and networking exercises
 - Phishing and social-engineering simulations
