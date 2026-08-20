@@ -2,15 +2,15 @@
 
 Cybersecurity graduate focused on **Security Operations, Threat Detection, Incident Response, and Blue Team security**.
 
-I build practical SOC analyst skills through hands-on security labs, Windows telemetry analysis, Splunk SIEM detections, network traffic analysis, alert triage, and documented investigations.
+I build practical SOC analyst skills through hands-on security labs, Windows telemetry analysis, Splunk SIEM detections, Microsoft Sentinel/KQL, network traffic analysis, alert triage, and documented investigations.
 
 ## 🔐 SOC Analyst Portfolio
 
 ### [SOC Analyst Lab](https://github.com/arriess/SOC-Analyst-Lab)
 
-A hands-on Windows + Splunk + Wireshark security operations portfolio with **5 detections validated end-to-end** and **2 documented analyst investigations**.
+A hands-on **Windows + Splunk + Microsoft Sentinel + Wireshark** security operations portfolio with **5 Splunk detections validated end-to-end**, **2 documented analyst investigations**, and a repeated-failed-logon detection reproduced and validated in **Microsoft Sentinel using KQL**.
 
-Validated detections include:
+Validated Splunk detections include:
 
 - Repeated Windows failed logons — Event ID 4625
 - Command Prompt spawning PowerShell — Event ID 4688
@@ -18,12 +18,20 @@ Validated detections include:
 - New local user account creation — Event ID 4720
 - User added to Local Administrators group — Event ID 4732
 
+Microsoft Sentinel expansion includes:
+
+- Windows host onboarding with Azure Arc
+- Azure Monitor Agent (AMA)
+- Data Collection Rule using Windows Security Events
+- `SecurityEvent` telemetry validation
+- KQL correlation of 5 failed logons within a 2-minute window
+
 Documented investigations include:
 
 - Windows failed-login analysis
 - DNS traffic analysis with Wireshark using A and AAAA query/response filtering
 
-The project demonstrates practical SOC workflows across endpoint and network telemetry, from controlled event generation and capture through detection, triage, investigation, and sanitized documentation.
+The project demonstrates practical SOC workflows across endpoint, SIEM, and network telemetry, from controlled event generation and collection through detection, triage, investigation, correlation, and sanitized documentation.
 
 ## 🛠️ Practical Skills
 
@@ -36,9 +44,17 @@ The project demonstrates practical SOC workflows across endpoint and network tel
 - Detection engineering fundamentals
 - MITRE ATT&CK mapping
 
-**SIEM & Windows Security**
+**SIEM & Detection**
 - Splunk Enterprise
 - Splunk Search Processing Language (SPL)
+- Microsoft Sentinel
+- Kusto Query Language (KQL)
+- Azure Arc
+- Azure Monitor Agent (AMA)
+- Data Collection Rules
+- Windows `SecurityEvent` telemetry
+
+**Windows Security**
 - Windows Security Event Logs
 - Windows Event Viewer
 - Authentication-event analysis
@@ -64,7 +80,7 @@ The project demonstrates practical SOC workflows across endpoint and network tel
 ## 🧪 Hands-on Learning
 
 - 26+ completed TryHackMe rooms
-- TryHackMe Top 8% at last profile review
+- TryHackMe Top 15% at last profile review
 - Windows and Linux security labs
 - Cybersecurity and networking exercises
 - Phishing and social-engineering simulations
@@ -83,8 +99,9 @@ The project demonstrates practical SOC workflows across endpoint and network tel
 I am continuing to strengthen practical skills in:
 
 - SOC alert investigation
-- Splunk detection engineering
+- Splunk and Microsoft Sentinel detection engineering
 - Windows security monitoring
+- KQL and security-event correlation
 - Network traffic analysis
 - Incident-response workflows
 
