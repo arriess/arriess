@@ -1,10 +1,10 @@
 # Hi, I'm Hicham Essafi 👋
 
-Cybersecurity graduate focused on **Security Operations, Threat Detection, Incident Response, and Blue Team security**.
+Cybersecurity graduate focused on **Security Operations, Threat Detection, Incident Response, Phishing Analysis, and Blue Team security**.
 
-I build practical SOC analyst skills through hands-on security labs, Windows telemetry analysis, Splunk SIEM detections, Microsoft Sentinel/KQL, network traffic analysis, alert triage, and documented investigations.
+I build practical SOC analyst skills through hands-on security projects involving **Splunk Enterprise, Microsoft Sentinel, KQL, Windows Security telemetry, Wireshark, phishing triage, IOC analysis, and incident-response documentation**.
 
-## 🔐 SOC Analyst Portfolio
+## 🔐 SOC & Blue Team Portfolio
 
 ### [SOC Analyst Lab](https://github.com/arriess/SOC-Analyst-Lab)
 
@@ -33,6 +33,34 @@ Documented investigations include:
 
 The project demonstrates practical SOC workflows across endpoint, SIEM, and network telemetry, from controlled event generation and collection through detection, triage, investigation, correlation, and sanitized documentation.
 
+---
+
+### [Phishing Analysis & Incident Response Lab](https://github.com/arriess/Phishing-Analysis-Lab)
+
+A controlled SOC portfolio focused on **phishing triage, email-header analysis, IOC extraction, suspicious-link analysis, Business Email Compromise (BEC), and incident-response decisions**.
+
+Completed investigations include:
+
+- **Credential Phishing Analysis** — sender/header review, SPF/DKIM/DMARC analysis, IOC extraction, URL assessment, and MITRE ATT&CK T1566.002
+- **Suspicious Link Analysis** — URL parsing, encoded redirects, domain/DNS context, risk assessment, and MITRE ATT&CK T1566.002
+- **Business Email Compromise (BEC)** — executive impersonation, Reply-To mismatch, urgent payment-request analysis, financial-risk assessment, and MITRE ATT&CK T1656
+
+The project demonstrates:
+
+- Phishing and BEC triage
+- Email-header analysis
+- SPF / DKIM / DMARC interpretation
+- IOC extraction and documentation
+- URL and redirect analysis
+- Social-engineering assessment
+- Severity and confidence classification
+- False-positive analysis
+- MITRE ATT&CK mapping
+- Containment and response recommendations
+- Privacy-conscious evidence sanitization
+
+All scenarios use simulated or benign training samples, reserved test domains, and documentation-only infrastructure. No real credentials, malicious payloads, live phishing infrastructure, or third-party targets are used.
+
 ## 🛠️ Practical Skills
 
 **Security Operations**
@@ -42,6 +70,8 @@ The project demonstrates practical SOC workflows across endpoint, SIEM, and netw
 - Threat detection
 - Incident investigation fundamentals
 - Detection engineering fundamentals
+- Phishing and BEC triage
+- IOC analysis
 - MITRE ATT&CK mapping
 
 **SIEM & Detection**
@@ -60,6 +90,15 @@ The project demonstrates practical SOC workflows across endpoint, SIEM, and netw
 - Authentication-event analysis
 - Process-creation analysis
 - Account and privilege-change monitoring
+
+**Email & Phishing Analysis**
+- Email-header analysis
+- SPF / DKIM / DMARC interpretation
+- Sender / Reply-To comparison
+- URL and redirect analysis
+- Credential-phishing triage
+- Business Email Compromise analysis
+- Social-engineering indicator assessment
 
 **Network Analysis**
 - Wireshark
@@ -102,12 +141,14 @@ I am continuing to strengthen practical skills in:
 - Splunk and Microsoft Sentinel detection engineering
 - Windows security monitoring
 - KQL and security-event correlation
+- Phishing and BEC investigation
+- IOC and email-header analysis
 - Network traffic analysis
 - Incident-response workflows
 
 ## 💼 Opportunities
 
-I am actively seeking **Junior SOC Analyst, Cybersecurity Analyst, and Security Operations Analyst** opportunities.
+I am actively seeking **Junior SOC Analyst, Cybersecurity Analyst, Security Operations Analyst, and Junior Security Analyst** opportunities in Germany.
 
 ## 🔗 Profiles
 
