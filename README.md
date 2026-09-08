@@ -37,7 +37,10 @@ I use controlled labs to practice Windows security monitoring, Splunk and Micros
 
 ## Hands-on Learning and Training
 
-- 60+ completed TryHackMe rooms
+**TryHackMe activity (8 September 2026):** 131 completed rooms, Top 3%, 19 badges, and a 24-day streak.
+
+[![TryHackMe profile showing 131 completed rooms, Top 3%, 19 badges, and a 24-day streak on 8 September 2026](assets/tryhackme-profile-2026-09-08.png)](https://tryhackme.com/p/HichamEssafi)
+
 - Windows and Linux security labs
 - Cisco cybersecurity, networking, and IoT training
 - ISC2 Certified in Cybersecurity (CC) self-paced training
