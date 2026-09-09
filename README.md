@@ -8,8 +8,9 @@ I use controlled labs to practice Windows security monitoring, Splunk and Micros
 
 | Project | Demonstrated work | Current evidence status |
 |---|---|---|
-| [SOC Analyst Lab](https://github.com/arriess/SOC-Analyst-Lab) | Windows Event IDs 4624, 4625, 4688, 4720, and 4732; Splunk detections; one Sentinel/KQL case; two analyst investigations; Wireshark DNS analysis | Four scheduled Splunk alerts are documented as validated. A fifth search match is documented, with its corrected alert condition awaiting re-test. The Sentinel query and result are documented; visual evidence is pending. |
-| [Phishing Analysis & Incident Response Lab](https://github.com/arriess/Phishing-Analysis-Lab) | Three controlled credential-phishing, suspicious-link, and BEC analyses; synthetic samples; IOC sets; response playbook; reproducible `.eml` parsing | All cases are explicitly synthetic. The committed parser output exposes the actual sample headers, URLs, and authentication limitations. |
+| [SOC Analyst Lab](https://github.com/arriess/SOC-Analyst-Lab) | Windows Event IDs 4624, 4625, 4688, 4720, and 4732; Splunk detections; one Sentinel/KQL case; two analyst investigations; Wireshark DNS analysis | Four scheduled Splunk alerts are documented as validated. Detection 002 has a historical search match and a passing offline guard test; the corrected alert awaits live re-testing. The Sentinel result is documented without a screenshot. |
+| [Phishing Analysis & Incident Response Lab](https://github.com/arriess/Phishing-Analysis-Lab) | Three controlled credential-phishing, suspicious-link, and BEC analyses; synthetic samples; IOC sets; response playbook; reproducible email and URL parsing | All three case artifacts are reproducible from committed samples and automatically checked. The scenarios remain explicitly synthetic. |
+| [Threat Hunting & Detection Engineering Lab](https://github.com/arriess/Threat-Hunting-Detection-Lab) | Three threat hypotheses, seven labelled synthetic process events, positive and negative controls, Base64 decoding, and three Sigma drafts | Three offline fixture tests are reproducible and automatically checked. Live Splunk/Sentinel and Sigma-backend validation remain pending. |
 
 ## Technical Focus
 
