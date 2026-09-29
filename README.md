@@ -55,9 +55,9 @@ I use controlled labs to practice **Windows security monitoring, Splunk and Micr
 
 ## 🧪 Hands-on Learning & Training
 
-**TryHackMe activity (8 September 2026):** 131 completed rooms, Top 3%, 19 badges, and a 24-day streak.
+**TryHackMe activity (29 September 2026):** 131 completed rooms, Top 3%, 20 badges, and a 45-day streak.
 
-[![TryHackMe profile showing 131 completed rooms, Top 3%, 19 badges, and a 24-day streak on 8 September 2026](assets/tryhackme-profile-2026-09-08.png)](https://tryhackme.com/p/HichamEssafi)
+[![TryHackMe profile showing 131 completed rooms, Top 3%, 20 badges, and a 45-day streak on 29 September 2026](assets/tryhackme-profile-2026-09-29.webp)](https://tryhackme.com/p/HichamEssafi)
 
 - Windows and Linux security labs
 - Cisco cybersecurity, networking, and IoT training
